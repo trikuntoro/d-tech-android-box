@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<!-- Google tag (gtag.js) -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EYRS8S0K0W"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-EYRS8S0K0W');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EYRS8S0K0W');
 </script>
-<title>D-TECH | Android TV Box Murah Full HD & 4K</title>
-
 
 <title>D-TECH | Android TV Box Murah Full HD & 4K</title>
 
-<!-- SEO -->
 <meta name="description" content="Jual Android TV Box D-TECH Full HD & PRO 4K. Support TV tabung, LED, monitor & proyektor. Bisa YouTube, TV lokal, bola live. Aksesoris lengkap. Order via WhatsApp.">
-<meta name="keywords" content="android tv box murah, d-tech tv box, tv box full hd, tv box 4k, android tv box tv tabung, remote tv box d-tech">
+<meta name="keywords" content="android tv box murah, d-tech tv box, tv box full hd, tv box 4k">
 <meta name="robots" content="index, follow">
 
 <style>
@@ -28,53 +27,56 @@ body{margin:0;background:#f4f6fb}
 header{
 background:linear-gradient(135deg,#8e2de2,#4a00e0);
 color:#fff;
-padding:15px;
+padding:14px;
 display:flex;
-flex-direction:column;
-align-items:center
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap
 }
-header h2{margin:0;font-size:24px}
-nav{margin-top:8px}
+header h2{margin:0;font-size:22px}
 nav a{
 color:#fff;
-margin:0 10px;
+margin-left:12px;
 text-decoration:none;
-font-weight:bold;
-font-size:14px
+font-size:14px;
+font-weight:bold
 }
 
 /* HERO */
 .hero{
 background:linear-gradient(135deg,#c471ed,#12c2e9);
-height:160px;
-border-bottom-left-radius:60px;
-border-bottom-right-radius:60px
+height:140px;
+border-bottom-left-radius:40px;
+border-bottom-right-radius:40px
 }
 
-/* CONTENT */
+/* CONTAINER */
 .container{
 max-width:1100px;
-margin:-70px auto 30px;
-padding:15px
+margin:-60px auto 30px;
+padding:14px
 }
+
+/* GRID */
 .grid{
 display:grid;
 grid-template-columns:1fr;
-gap:20px
+gap:16px
 }
+
+/* CARD */
 .card{
 background:#fff;
 border-radius:16px;
-box-shadow:0 6px 15px rgba(0,0,0,.1);
+box-shadow:0 5px 12px rgba(0,0,0,.1);
 overflow:hidden;
 position:relative
 }
 .card img{
 width:100%;
-height:210px;
+height:180px;
 object-fit:contain;
-padding:10px;
-cursor:pointer
+padding:10px
 }
 
 /* BADGE */
@@ -84,13 +86,12 @@ top:10px;
 left:10px;
 background:#ff3d00;
 color:#fff;
-padding:6px 12px;
-font-size:12px;
-font-weight:bold;
+padding:5px 10px;
+font-size:11px;
 border-radius:6px
 }
 
-.content{padding:15px}
+.content{padding:14px;text-align:center}
 .tag{
 display:inline-block;
 background:#4a00e0;
@@ -99,10 +100,10 @@ padding:4px 10px;
 border-radius:6px;
 font-size:12px
 }
-h3{margin:8px 0 5px;font-size:18px}
+h3{margin:10px 0 6px;font-size:18px}
 
 /* PRICE */
-.price{margin:10px 0}
+.price{margin:8px 0}
 .old-price{color:#999;text-decoration:line-through;font-size:14px}
 .new-price{font-size:22px;font-weight:bold;color:#e53935}
 
@@ -114,26 +115,26 @@ margin-top:10px
 }
 details p{
 font-size:14px;
-line-height:1.7;
-margin-top:10px
+line-height:1.6;
+margin-top:10px;
+text-align:left
 }
 
 /* BUTTON */
 .btn{
 display:block;
-margin-top:15px;
+margin-top:14px;
 background:#25d366;
 color:#fff;
 padding:14px;
 border-radius:12px;
-text-align:center;
 text-decoration:none;
 font-weight:bold;
 font-size:16px
 }
 
 /* GALERI */
-.galeri h2{text-align:center}
+.galeri h2{text-align:center;margin-bottom:12px}
 .galeri-grid{
 display:grid;
 grid-template-columns:repeat(2,1fr);
@@ -141,10 +142,9 @@ gap:10px
 }
 .galeri-grid img{
 width:100%;
-height:160px;
+height:140px;
 object-fit:cover;
-border-radius:12px;
-cursor:pointer
+border-radius:12px
 }
 
 /* LIGHTBOX */
@@ -166,12 +166,12 @@ border-radius:12px
 
 /* DESKTOP */
 @media(min-width:768px){
-header{flex-direction:row;justify-content:space-between}
-nav{margin-top:0}
 .grid{grid-template-columns:repeat(3,1fr)}
 .galeri-grid{grid-template-columns:repeat(4,1fr)}
+.content{text-align:left}
 }
 
+/* FOOTER */
 footer{
 background:#1f1f1f;
 color:#aaa;
@@ -189,7 +189,7 @@ font-size:14px
 <nav>
 <a href="#">Home</a>
 <a href="#produk">Produk</a>
-<a href="#galeri">Galeri Pembeli</a>
+<a href="#galeri">Galeri</a>
 <a href="#kontak">Kontak</a>
 </nav>
 </header>
@@ -207,41 +207,20 @@ font-size:14px
 <div class="content">
 <span class="tag">FULL HD</span>
 <h3>D-TECH BASIC FULL HD</h3>
-
 <div class="price">
 <div class="old-price">Rp 600.000</div>
 <div class="new-price">Rp 380.000</div>
 </div>
-
 <details>
-<summary>Lihat Spesifikasi Lengkap</summary>
+<summary>Lihat Spesifikasi</summary>
 <p>
-<strong>Konfigurasi:</strong><br>
 • RAM 4GB + ROM 64GB<br>
 • Android 14<br>
-• Resolusi 1080P Full HD<br>
-• Chipset stabil & responsif<br>
-• Mirroring layar HP<br>
-• Garansi 3 bulan<br><br>
-
-<strong>Paket Pembelian:</strong><br>
-• Unit Android TV Box D-TECH<br>
-• Kabel HDMI & RCA<br>
-• Power supply<br>
-• Remote control<br>
-• Buku manual<br><br>
-
-<strong>Keunggulan:</strong><br>
-• Bisa digunakan di TV tabung, TV LED & monitor<br>
-• Nonton YouTube, Netflix, TV lokal<br>
-• Siaran bola live tanpa sensor<br>
-• Support mouse & keyboard USB<br><br>
-
-<strong>Catatan:</strong><br>
-Google Voice & Bluetooth tidak tersedia
+• Resolusi Full HD<br>
+• Support TV tabung & LED<br>
+• Garansi 3 bulan
 </p>
 </details>
-
 <a class="btn" href="https://wa.me/6285263841766">Order via WhatsApp</a>
 </div>
 </div>
@@ -253,39 +232,20 @@ Google Voice & Bluetooth tidak tersedia
 <div class="content">
 <span class="tag">PRO 4K</span>
 <h3>D-TECH PRO 4K</h3>
-
 <div class="price">
 <div class="old-price">Rp 750.000</div>
 <div class="new-price">Rp 550.000</div>
 </div>
-
 <details>
-<summary>Lihat Spesifikasi Lengkap</summary>
+<summary>Lihat Spesifikasi</summary>
 <p>
-<strong>Konfigurasi:</strong><br>
 • RAM 4GB + ROM 128GB<br>
 • Android 9<br>
-• Resolusi 4K Ultra HD<br>
-• Chipset Amlogic 905L2<br>
-• Mirroring layar HP<br>
-• Garansi 3 bulan<br><br>
-
-<strong>Paket Pembelian:</strong><br>
-• Unit Android TV Box D-TECH<br>
-• Kabel HDMI & RCA<br>
-• Power supply<br>
-• Remote Google Voice<br>
-• Buku manual<br><br>
-
-<strong>Keunggulan:</strong><br>
-• TV lokal lengkap + YouTube<br>
-• Film bioskop & Play Store<br>
-• Siaran bola live tanpa sensor<br>
-• Bluetooth (speaker aktif & karaoke)<br>
-• Google Voice (kontrol suara)
+• Resolusi 4K<br>
+• Bluetooth & Google Voice<br>
+• Garansi 3 bulan
 </p>
 </details>
-
 <a class="btn" href="https://wa.me/6285263841766">Order via WhatsApp</a>
 </div>
 </div>
@@ -297,19 +257,12 @@ Google Voice & Bluetooth tidak tersedia
 <div class="content">
 <span class="tag">AKSESORIS</span>
 <h3>Aksesoris D-TECH Original</h3>
-
-<details open>
-<summary>Detail Aksesoris</summary>
-<p>
-• Remote control Android TV Box D-TECH<br>
-• Adapter / power supply original D-TECH<br>
-• Cocok untuk semua seri TV Box D-TECH<br>
-• Plug & Play (langsung pakai)<br>
-• Bisa beli satuan / paket<br>
-• Solusi pengganti rusak atau hilang
+<p style="font-size:14px;line-height:1.6;text-align:left">
+• Remote control<br>
+• Adapter / power supply<br>
+• Cocok semua seri D-TECH<br>
+• Plug & Play
 </p>
-</details>
-
 <a class="btn" href="https://wa.me/6285263841766">Order via WhatsApp</a>
 </div>
 </div>
@@ -329,7 +282,7 @@ Google Voice & Bluetooth tidak tersedia
 </div>
 
 <!-- LIGHTBOX -->
-<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+<div class="lightbox" id="lightbox" onclick="this.style.display='none'">
 <img id="lightbox-img">
 </div>
 
@@ -342,9 +295,6 @@ Google Voice & Bluetooth tidak tersedia
 function openLightbox(src){
 document.getElementById("lightbox-img").src = src;
 document.getElementById("lightbox").style.display = "flex";
-}
-function closeLightbox(){
-document.getElementById("lightbox").style.display = "none";
 }
 </script>
 
