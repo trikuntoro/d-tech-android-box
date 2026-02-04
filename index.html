@@ -50,6 +50,29 @@ border-bottom-left-radius:40px;
 border-bottom-right-radius:40px
 }
 
+/* RUNNING TEXT */
+.running-text{
+background:#fff;
+overflow:hidden;
+border-bottom:1px solid #eee;
+padding:8px 0;
+}
+
+.running-track{
+white-space:nowrap;
+display:inline-block;
+font-weight:bold;
+font-size:15px;
+color:#4a00e0;
+padding-left:100%;
+animation:jalan 15s linear infinite;
+}
+
+@keyframes jalan{
+0%{transform:translateX(0)}
+100%{transform:translateX(-100%)}
+}
+
 /* CONTAINER */
 .container{
 max-width:1100px;
@@ -196,6 +219,13 @@ font-size:14px
 
 <div class="hero"></div>
 
+<!-- TEKS BERJALAN -->
+<div class="running-text">
+<div class="running-track">
+Selamat datang di D-TECH Android TV Box | Promo Harga Terbaik | Order Mudah via WhatsApp
+</div>
+</div>
+
 <!-- PRODUK -->
 <div class="container" id="produk">
 <div class="grid">
@@ -203,7 +233,7 @@ font-size:14px
 <!-- PRODUK 1 -->
 <div class="card">
 <span class="badge">PROMO</span>
-<img src="dtech-tvbox.png" alt="D-TECH BASIC FULL HD" onclick="openLightbox(this.src)">
+<img src="dtech-tvbox.png" onclick="openLightbox(this.src)">
 <div class="content">
 <span class="tag">FULL HD</span>
 <h3>D-TECH BASIC FULL HD</h3>
@@ -211,18 +241,20 @@ font-size:14px
 <div class="old-price">Rp 600.000</div>
 <div class="new-price">Rp 380.000</div>
 </div>
+
 <details>
 <summary>Lihat Spesifikasi</summary>
 <p>
 • RAM 4GB + ROM 64GB<br>
-• bisa nonton siaran TV lokal lengkap<br>
-• Nonton youtube + Film Bioskop + siaran olahraga live<br>
+• Nonton TV lokal lengkap<br>
+• YouTube + Film + Bola Live<br>
 • Android 9<br>
 • Resolusi Full HD<br>
 • Support TV tabung & LED<br>
 • Garansi 3 bulan
 </p>
 </details>
+
 <a class="btn" href="https://wa.me/6285263841766">Order via WhatsApp</a>
 </div>
 </div>
@@ -230,7 +262,7 @@ font-size:14px
 <!-- PRODUK 2 -->
 <div class="card">
 <span class="badge">BEST SELLER</span>
-<img src="dtech-tvbox-2.png" alt="D-TECH PRO 4K" onclick="openLightbox(this.src)">
+<img src="dtech-tvbox-2.png" onclick="openLightbox(this.src)">
 <div class="content">
 <span class="tag">PRO 4K</span>
 <h3>D-TECH PRO 4K</h3>
@@ -238,36 +270,21 @@ font-size:14px
 <div class="old-price">Rp 750.000</div>
 <div class="new-price">Rp 550.000</div>
 </div>
+
 <details>
 <summary>Lihat Spesifikasi</summary>
 <p>
 • RAM 4GB + ROM 128GB<br>
-• bisa nonton siaran TV lokal lengkap<br>
-• Nonton youtube + Film Bioskop + siaran olahraga live<br>
+• TV lokal lengkap<br>
+• YouTube + Film + Bola Live<br>
 • Android 9<br>
-• tersedia fitur asisten google<br>
+• Google Assistant<br>
 • Resolusi 4K<br>
-• Bluetooth (bisa untuk sambung spiker aktif)<br>
+• Bluetooth<br>
 • Garansi 3 bulan
 </p>
 </details>
-<a class="btn" href="https://wa.me/6285263841766">Order via WhatsApp</a>
-</div>
-</div>
 
-<!-- AKSESORIS -->
-<div class="card">
-<span class="badge">AKSESORIS</span>
-<img src="remote-dtech.png" alt="Aksesoris D-TECH" onclick="openLightbox(this.src)">
-<div class="content">
-<span class="tag">AKSESORIS</span>
-<h3>Aksesoris D-TECH Original</h3>
-<p style="font-size:14px;line-height:1.6;text-align:left">
-• Remote control<br>
-• Adapter / power supply<br>
-• Cocok semua seri D-TECH<br>
-• Plug & Play
-</p>
 <a class="btn" href="https://wa.me/6285263841766">Order via WhatsApp</a>
 </div>
 </div>
