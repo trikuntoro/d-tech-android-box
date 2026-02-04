@@ -27,15 +27,24 @@ header{
 background:linear-gradient(135deg,#8e2de2,#4a00e0);
 color:#fff;
 padding:14px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-flex-wrap:wrap
+text-align:center;
 }
-header h2{margin:0;font-size:22px}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+margin-bottom:8px;
+}
+
+nav{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:14px;
+}
+
 nav a{
 color:#fff;
-margin-left:12px;
 text-decoration:none;
 font-size:14px;
 font-weight:bold
@@ -220,7 +229,8 @@ font-size:14px
 <body>
 
 <header>
-<h2>D-TECH</h2>
+<div class="logo">D-TECH</div>
+
 <nav>
 <a href="#">Home</a>
 <a href="#produk">Produk</a>
@@ -243,7 +253,6 @@ Selamat datang di D-TECH Android TV Box | Promo Harga Terbaik | Garansi 3 Bulan 
 <div class="container" id="produk">
 <div class="grid">
 
-<!-- PRODUK 1 -->
 <div class="card">
 <span class="badge">PROMO</span>
 <img src="dtech-tvbox.png" onclick="openLightbox(this.src)">
@@ -273,7 +282,6 @@ Selamat datang di D-TECH Android TV Box | Promo Harga Terbaik | Garansi 3 Bulan 
 </div>
 </div>
 
-<!-- PRODUK 2 -->
 <div class="card">
 <span class="badge">BEST SELLER</span>
 <img src="dtech-tvbox-2.png" onclick="openLightbox(this.src)">
@@ -303,7 +311,6 @@ Selamat datang di D-TECH Android TV Box | Promo Harga Terbaik | Garansi 3 Bulan 
 </div>
 </div>
 
-<!-- AKSESORIS -->
 <div class="card">
 <span class="badge">AKSESORIS</span>
 <img src="remote-dtech.png" onclick="openLightbox(this.src)">
@@ -326,7 +333,7 @@ Selamat datang di D-TECH Android TV Box | Promo Harga Terbaik | Garansi 3 Bulan 
 </div>
 </div>
 
-<!-- TENTANG KAMI -->
+<!-- TENTANG -->
 <div class="container" id="tentang">
 <div class="tentang">
 <h2>Tentang D-TECH</h2>
