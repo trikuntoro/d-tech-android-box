@@ -8,7 +8,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EYRS8S0K0W"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
+function gtag(){dataLayer.push(arguments);} 
 gtag('js', new Date());
 gtag('config', 'G-EYRS8S0K0W');
 </script>
@@ -172,6 +172,16 @@ border-radius:12px;
 cursor:pointer
 }
 
+/* TENTANG */
+.tentang{
+background:#fff;
+padding:20px;
+border-radius:16px;
+box-shadow:0 5px 12px rgba(0,0,0,.1);
+line-height:1.8;
+font-size:15px
+}
+
 /* LIGHTBOX */
 .lightbox{
 display:none;
@@ -214,6 +224,7 @@ font-size:14px
 <nav>
 <a href="#">Home</a>
 <a href="#produk">Produk</a>
+<a href="#tentang">Tentang Kami</a>
 <a href="#galeri">Galeri</a>
 <a href="#kontak">Kontak</a>
 </nav>
@@ -292,7 +303,7 @@ Selamat datang di D-TECH Android TV Box | Promo Harga Terbaik | Garansi 3 Bulan 
 </div>
 </div>
 
-<!-- PRODUK AKSESORIS -->
+<!-- AKSESORIS -->
 <div class="card">
 <span class="badge">AKSESORIS</span>
 <img src="remote-dtech.png" onclick="openLightbox(this.src)">
@@ -312,6 +323,24 @@ Selamat datang di D-TECH Android TV Box | Promo Harga Terbaik | Garansi 3 Bulan 
 </div>
 </div>
 
+</div>
+</div>
+
+<!-- TENTANG KAMI -->
+<div class="container" id="tentang">
+<div class="tentang">
+<h2>Tentang D-TECH</h2>
+<p>
+D-TECH lahir dari keinginan Doni untuk menghadirkan teknologi hiburan digital yang lebih mudah dijangkau oleh masyarakat. Huruf “D” berasal dari nama pendiri sebagai bentuk tanggung jawab dan komitmen dalam menjaga kualitas produk, sedangkan “TECH” melambangkan inovasi teknologi modern.
+</p>
+
+<p>
+Produk D-TECH merupakan perangkat pilihan yang berasal dari produsen terpercaya seperti Tripsky, yang kemudian direbranding serta disesuaikan dengan kebutuhan pengguna lokal agar lebih optimal, praktis, dan mudah digunakan.
+</p>
+
+<p>
+Melalui D-TECH, kami ingin membantu setiap keluarga menikmati hiburan digital seperti siaran TV, film, dan streaming dengan kualitas terbaik serta harga yang bersahabat.
+</p>
 </div>
 </div>
 
@@ -338,8 +367,8 @@ Selamat datang di D-TECH Android TV Box | Promo Harga Terbaik | Garansi 3 Bulan 
 
 <script>
 function openLightbox(src){
-document.getElementById("lightbox-img").src = src;
-document.getElementById("lightbox").style.display = "flex";
+ document.getElementById("lightbox-img").src = src;
+ document.getElementById("lightbox").style.display = "flex";
 }
 </script>
 
